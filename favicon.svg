@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4cc79a"/>
+      <stop offset=".55" stop-color="#2f8f6b"/>
+      <stop offset="1" stop-color="#1e5a47"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="#fff"/>
+  <!-- C (como el original): anillo abierto a la derecha, cortes rectos -->
+  <path d="M715 298 A300 300 0 1 0 720 735" fill="none" stroke="url(#g)" stroke-width="112"/>
+  <!-- Corte blanco diagonal por donde pasa la flecha -->
+  <path d="M190 745 L465 470 L525 520 L580 505 L605 525 L800 285" fill="none" stroke="#fff" stroke-width="80" stroke-linejoin="miter"/>
+  <!-- Barras crecientes abajo, con los verdes de la app -->
+  <rect x="392" y="612" width="58" height="92" rx="29" fill="#9ad9bf"/>
+  <rect x="472" y="568" width="58" height="136" rx="29" fill="#4cc79a"/>
+  <rect x="552" y="545" width="58" height="159" rx="29" fill="#2f8f6b"/>
+  <!-- Línea ascendente con flecha -->
+  <path d="M190 745 L465 470 L525 520 L580 505 L605 525 L800 285" fill="none" stroke="url(#g)" stroke-width="30" stroke-linejoin="miter"/>
+  <path d="M745 290 L845 250 L828 355 Z" fill="#4cc79a"/>
+</svg>
